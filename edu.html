@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Belajar javascript</title>
+</head>
+
+<body>
+    <p id="penjumlahan"></p>
+    <script>
+        //saat variabel pertama dan kedua ditambahkan itu terjadi keanehan karena variabel pertama dan kedua beda tipe data jadi tidak dapat dijumlahkan
+        var pertama = 10;
+        var kedua = "Saya belajar javascript"
+
+        document.getElementById("penjumlahan").innerHTML = pertama + kedua
+        //karena terjadi keanehan saat menjumlahkan variabe pertama dan kedua maka saat membuat variabel ketiga dengan tipe data yang sama dengan variabel pertama
+        var ketiga = 2
+
+        document.getElementById("penjumlahan").innerHTML = pertama + ketiga
+
+    </script>
+</body>
+
+</html>
