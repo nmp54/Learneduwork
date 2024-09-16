@@ -18,8 +18,6 @@ describe('Working with inputs', () => {
     });
 
     it('Should fill checkbox', () => {
-        cy.get('input[name="user_remember_me"]').check()
-        cy.get('input[name="user_remember_me"]').type('checkbox')
         cy.get('#user_remember_me').check()
     })
 })
