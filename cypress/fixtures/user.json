@@ -5,5 +5,7 @@
   "password_wrong": "wrong",
   "firstname": "nur",
   "lastname": "sri",
-  "postalcode": "1234"
+  "postalcode": "1234",
+  "username_zero": "username",
+  "password_zero": "password"
 }
