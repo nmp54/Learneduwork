@@ -1,0 +1,16 @@
+{
+  "name": "eduwork",
+  "version": "1.0.0",
+  "description": "automation ui using cypress",
+  "main": "index.js",
+  "author": "nmp54",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^13.14.2",
+    "prettier": "^3.3.3"
+  },
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  }
+}
