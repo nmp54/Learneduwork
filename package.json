@@ -1,0 +1,16 @@
+{
+  "name": "edubdd",
+  "version": "1.0.0",
+  "description": "automation testing with cypress bdd",
+  "main": "index.js",
+  "author": "nmp54",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^13.14.2",
+    "prettier": "^3.3.3"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^20.1.2",
+    "@cypress/browserify-preprocessor": "^3.0.2"
+  }
+}
