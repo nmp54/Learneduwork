@@ -1,4 +1,11 @@
 {
+  "username_wrong": "wrong",
+  "password_wrong": "wrong",
   "username": "username",
-  "password": "password"
+  "password": "password",
+  "username_saucedemo": "standard_user",
+  "password_saucedemo": "secret_sauce",
+  "firstname": "Nurul",
+  "lastname": "Putri",
+  "postalcode": "15512"
 }
