@@ -9,6 +9,7 @@ module.exports = defineConfig({
     watchForFileChanges: false,
     chromeWebSecurity: false,
     blockHosts: ["https://events.backtrace.io, https://submit.backtrace.io"],
-    testIsolation: false
+    testIsolation: false,
+    experimentalRunAllSpecs: true
   },
 });

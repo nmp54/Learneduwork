@@ -15,6 +15,20 @@
 
 // Import commands.js using ES2015 syntax:
 import './commands'
+Cypress.Commands.add('loginViaAPI', () => {
+    const email = Cypress.env('admin'),
+        password = Cypress.env('admin')
+
+    cy.request('POST', `${Cypress.env('apiUrl')}/users/login`, {
+        username: email,
+        password,
+    }).then((response) => {
+        cy.setCookie('sessionId', response.body.sessionId)
+        cy.setCookie('userId', response.body.userId)
+        cy.setCookie('userName', response.body.userName)
+        cy.visit('https://the-internet.herokuapp.com/basic_auth')
+    })
+})
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
