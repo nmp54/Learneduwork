@@ -11,5 +11,6 @@ describe('Basic Auth', () => {
             failOnStatusCode: false
         })
         cy.get('p').should('include.text', 'Congratulations! You must have the proper credentials')
+            .should('include', 'application/json; charset=utf-8')
     });
 })
